@@ -24,6 +24,9 @@ And of course Dillinger itself is open source with a [public repository][dill]
 este proyecto requiere de node [Node.js](https://nodejs.org/) v4+ para correr
 
 
+PARA PROBAR EL ENDPOINT ES:
+localhost:3000/repos/AQUILENGUAJE
+
 ```sh
 cd myapp
 $ npm install
