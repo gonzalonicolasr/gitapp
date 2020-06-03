@@ -6,6 +6,7 @@
 
 Proyecto web con integracion de NODEJS + EXPRESS + git trending
 
+el proyecto permite consultar los respositorios en el top trending de github
  
 ### Tech
 
