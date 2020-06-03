@@ -38,46 +38,6 @@ $npm install trending-github
 $npm start
 ```
 
-Usage
-const trending = require('trending-github');
- 
-trending()
-  .then(repos => console.log(repos));
- 
-//=> [{
-//=>   author: 'asciimoo',
-//=>   name: 'wuzz',
-//=>   href: 'https://github.com/asciimoo/wuzz',
-//=>   description: 'Interactive cli tool for HTTP inspection',
-//=>   language: 'Go',
-//=>   stars: 966,
-//=>   forks: 20,
-//=>   starsInPeriod: 153
-//=> }, ... ]
-
-
-const trending = require('trending-github');
- 
-trending('weekly', 'javascript')
-  .then(repos => console.log(repos));
- 
-//=> [{
-//=>   author: 'freeCodeCamp',
-//=>   name: 'freeCodeCamp',
-//=>   href: 'https://github.com/freeCodeCamp/freeCodeCamp',
-//=>   description: 'The https://freeCodeCamp.com open source codebase and curriculum. Learn to code and help nonprofits.',
-//=>   language: 'JavaScript',
-//=>   stars: 229260,
-//=>   forks: 9289
-//=>   starsInPeriod: 42
-//=> }, ... ]
-```sh
-127.0.0.1:3000
-```
-
-License
-----
-
 MIT
 
 
